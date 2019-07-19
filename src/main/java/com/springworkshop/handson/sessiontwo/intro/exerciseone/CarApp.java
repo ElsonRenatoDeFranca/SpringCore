@@ -1,10 +1,12 @@
 package com.springworkshop.handson.sessiontwo.intro.exerciseone;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import org.springframework.stereotype.Component;
 
 /**
  * Created by e068635 on 7/16/2019.
  */
+@Component
 public class CarApp {
 
     public static void main(String[] args) {
